@@ -2,6 +2,8 @@
 
 Online demo can be found [here](https://rodydavis.github.io/lit-html-table/).
 
+Blog post [here](https://rodydavis.com/posts/lit-html-table/).
+
 - Json to HTML Table
 - JSON from url
 - Inline JSON

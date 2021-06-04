@@ -1,4 +1,5 @@
 {
+  "name": "lit-html-table",
   "version": "0.0.0",
   "files": [
     "dist",

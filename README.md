@@ -1,5 +1,7 @@
 ## JSON to HTML Table
 
+[![Demo](https://github.com/rodydavis/lit-html-table/actions/workflows/ci.yml/badge.svg)](https://github.com/rodydavis/lit-html-table/actions/workflows/ci.yml)
+
 Online demo can be found [here](https://rodydavis.github.io/lit-html-table/).
 
 Blog post [here](https://rodydavis.com/posts/lit-html-table/).

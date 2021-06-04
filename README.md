@@ -1,10 +1,4 @@
----
-layout: layouts/post.njk
-title: 'JSON to HTML Table with Lit'
-date: 2021-06-03
-categories: [web, lit, json, html]
-image: /img/banner.jpeg
----
+## JSON to HTML Table
 
 Online demo can be found [here](https://rodydavis.github.io/lit-html-table/).
 
@@ -13,6 +7,7 @@ Online demo can be found [here](https://rodydavis.github.io/lit-html-table/).
 - Inline JSON
 - No Dependencies
 - Editable table
+- Lit
 
 <img width="100%" src="/doc/finished.png">
 

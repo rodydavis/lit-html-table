@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JSON to Lit HTML Table</title>
+  <script type="module" src="/src/lit-html-table.ts"></script>
+</head>
+
+<body>
+  <lit-html-table src="https://jsonplaceholder.typicode.com/posts" editable>
+    <!-- <span slot="title" style="color: red;">Title</span> -->
+    <!-- <script type="application/json">
+      [
+        {
+          "id": "0",
+          "name": "First Item"
+        }
+      ]
+    </script> -->
+  </lit-html-table>
+  <script>
+    const elem = document.querySelector('lit-html-table');
+    elem.addEventListener('input-cell', (e) => {
+      const { index, data } = e.detail;
+      const values = elem.values;
+    }, false);
+  </script>
+</body>
+
+</html>
